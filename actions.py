@@ -1,0 +1,5 @@
+ADD = 1
+CREATE = 2
+DELETE = 3
+MODIFY = 4
+BUY = 5
