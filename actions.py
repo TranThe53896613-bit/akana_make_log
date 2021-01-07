@@ -3,6 +3,7 @@ CREATE = 2
 DELETE = 3
 MODIFY = 4
 BUY = 5
+TRY = 6
 
 def get_action_name(code):
     if code == 1:
@@ -15,5 +16,7 @@ def get_action_name(code):
         return "MODIFY"
     elif code == 5:
         return "BUY"
+    elif code == 6:
+        return "TRY"
     else:
         raise ValueError(f"code action {code} is invalid")
